@@ -1,6 +1,7 @@
 import * as React from "react"
 
 import EditHead from "../components/Head"
+import Link from "next/link"
 
 import styles from "../styles/home.module.scss"
 
@@ -16,6 +17,7 @@ const Page = () => {
             <main className={styles.main}>
                 <h1>DevDevDev</h1>
                 <p>With CloudBase, you no longer have to worry about managing projects and can focus on dev.</p>
+                <Link href="/"><a><button className={styles.start_button}><span>Back</span></button></a></Link>
             </main>
         </div>
     )
