@@ -2,13 +2,17 @@
     text-align: center;
     min-height: 97vh;
     margin-top: 3vh;
+    .header {
+        text-align: left;
+        width: fit-content;
+    }
     .logo {
         font-size: 2rem;
         font-weight: bold;
         background-color: #000;
         color: #fff;
         width: fit-content;
-        margin: auto;
+        margin-left: 5vw;
         padding: 5px;
     }
     .stressfree {
