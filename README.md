@@ -1,2 +1,2 @@
 # cloudbase
-🎛個人/団体のサービスプロジェクトをコントロール、統合することができます
+🎛Control and integrate individual/group projects
