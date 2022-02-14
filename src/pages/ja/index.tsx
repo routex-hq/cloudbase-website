@@ -16,10 +16,6 @@ const Page = () => {
             description={appDesc}
             url={"https://cloudbase.host/ja/"} />
             <main className={styles.main}>
-                <header className={styles.header}><Link href="/"><a><p className={styles.logo}>CloudBase</p></a></Link></header>
-                <h2 className={styles.stressfree}>GoStress<br/>freeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</h2>
-                <Link href="/home"><a><button className={styles.start_button}><span>Start</span></button></a></Link>
-                <p className={styles.descripton}>CloudBaseを使えば、プロジェクトの管理に悩まされることなく、開発に集中することができます。</p>
             </main>
         </div>
     )
