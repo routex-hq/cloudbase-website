@@ -37,8 +37,21 @@ const Page = () => {
                 </div>
                 </div>
                 <div className={styles.container_right}>
-                <YouTube videoId="dBOSUER_5T4" />
+                <YouTube videoId="dBOSUER_5T4" className={styles.video} />
                 </div>
+                </div>
+                <div className={styles.how_to_start_box}>
+                    <div className={styles.how_to_start_wrap}>
+                    <h2 className={styles.title}>How to Start</h2>
+                    <div className={styles.how_to_start_steps}>
+                        <h3>Register/Login with Google</h3>
+                        <p>You can register for CloudBase with a Google account.</p>
+                    </div>
+                    <div className={styles.how_to_start_steps}>
+                        <h3>Select an individual or group</h3>
+                        <p>You can also create a group later.</p>
+                    </div>
+                    </div>
                 </div>
             </main>
         </div>

@@ -107,6 +107,21 @@ $mobile: 767px;
             border: 0;
         }
     }
+    .video {
+        max-width: 100vw;
+        width: auto;
+        height: auto;
+    }
+    .how_to_start_box {
+        margin-left: 8vw;
+        .how_to_start_wrap {
+            text-align: left;
+            .title {
+                font-size: 30px;
+                margin-top: 7vh;
+            }
+        }
+    }
 }
 
 
@@ -118,6 +133,7 @@ $mobile: 767px;
         .container_top {
             display: flex;
             flex-wrap: wrap;
+            height: fit-content;
         }
         .container_left {
             width: 100vw;
