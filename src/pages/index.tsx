@@ -9,7 +9,7 @@ import styles from "../styles/home.module.scss"
 import Header from "../components/Header"
 
 import ReactPlayer from "react-player"
-import WelcomeVideoPath from "../assets/video/render_02_ver3.mp4"
+const WelcomeVideoPath = require( "../assets/video/render_02_ver3.mp4")
 
 const Page = () => {
     const appName = process.env.serviceName
@@ -38,7 +38,7 @@ const Page = () => {
                 </div>
                 </div>
                 <div className={styles.container_right}>
-                <ReactPlayer url={WelcomeVideoPath} controls muted loop />
+                <video ref={WelcomeVideoPath} controls muted loop />
                 </div>
                 </div>
             </main>
