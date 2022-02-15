@@ -15,7 +15,7 @@ const Footer: FunctionComponent = () => {
     </Head>
     <header className={styles.header}>
         <Link href="/"><a>
-            <div><span className={styles.logo}><img className={styles.logo_img} src="/img/logo-mark.svg"/></span></div>
+            <div><span className={styles.logo}><img className={styles.logo_img} src="/img/logo-mark-font.svg"/></span></div>
         </a></Link>
         <div className={styles.links}>
             <Link href="/price"><a>Price</a></Link>
