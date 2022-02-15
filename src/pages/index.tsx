@@ -8,8 +8,7 @@ import EditHead from "../components/Head"
 import styles from "../styles/home.module.scss"
 import Header from "../components/Header"
 
-import ReactPlayer from "react-player"
-const WelcomeVideoPath = require( "../assets/video/render_02_ver3.mp4")
+import YouTube from 'react-youtube'
 
 const Page = () => {
     const appName = process.env.serviceName
@@ -38,7 +37,7 @@ const Page = () => {
                 </div>
                 </div>
                 <div className={styles.container_right}>
-                <video ref={WelcomeVideoPath} controls muted loop />
+                <YouTube videoId="X-RWqWfzTKM" />
                 </div>
                 </div>
             </main>
