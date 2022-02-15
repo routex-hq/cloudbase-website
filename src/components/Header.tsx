@@ -11,6 +11,7 @@ const Footer: FunctionComponent = () => {
     <div>
     <Head>
         <link href="https://fonts.cdnfonts.com/css/product-sans" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://use.typekit.net/suh1soi.css"/>
     </Head>
     <header className={styles.header}>
         <Link href="/"><a>
