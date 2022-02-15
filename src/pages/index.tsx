@@ -8,6 +8,9 @@ import EditHead from "../components/Head"
 import styles from "../styles/home.module.scss"
 import Header from "../components/Header"
 
+import ReactPlayer from "react-player"
+import WelcomeVideoPath from "../assets/video/render_02_ver3.mp4"
+
 const Page = () => {
     const appName = process.env.serviceName
     const appDesc = process.env.serviceDescription
@@ -35,7 +38,7 @@ const Page = () => {
                 </div>
                 </div>
                 <div className={styles.container_right}>
-                    <iframe className={styles.video} src="/video/render_02_ver3.mp4"/>
+                <ReactPlayer url={WelcomeVideoPath} muted loop />
                 </div>
                 </div>
             </main>
