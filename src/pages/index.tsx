@@ -38,7 +38,7 @@ const Page = () => {
                 </div>
                 </div>
                 <div className={styles.container_right}>
-                <ReactPlayer url={WelcomeVideoPath} muted loop />
+                <ReactPlayer url={WelcomeVideoPath} controls muted loop />
                 </div>
                 </div>
             </main>
