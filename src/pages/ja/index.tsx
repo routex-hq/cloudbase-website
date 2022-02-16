@@ -24,7 +24,7 @@ const Page = () => {
                 <div className={styles.container_top}>
                 <div className={styles.container_left}>
                 <h1 className={styles.title}>Focus With CloudBase</h1>
-                <p className={styles.subtitle}>CloudBaseを使用すればプロジェクトの管理に悩まされることはありません<br/>CloudBaseを使用して開発に集中しましょう</p>
+                <p className={styles.subtitle}>CloudBaseを使用すればプロジェクトの管理に悩まされることはありません<br/>CloudBaseを使用して開発に集中しましょう<small>devdevdev.</small></p>
                 <div className={styles.buttons}>
                     <Link href="/start"><a><button className={styles.button_black}><span>Let's get right in<span><img src="https://s2.svgbox.net/hero-outline.svg?ic=arrow-right&color=fff" alt="" className={styles.arrow}/></span></span></button></a></Link>
                     <Link href="/docs"><a><button className={styles.button_yellow}><span><img src="https://s2.svgbox.net/octicons.svg?ic=book&color=1A1A1A" className={styles.book}/></span><span>Documentation</span></button></a></Link>
@@ -37,7 +37,7 @@ const Page = () => {
                 </div>
                 </div>
                 <div className={styles.container_right}>
-                <YouTube videoId="dBOSUER_5T4" className={styles.video} />
+                <YouTube videoId="X-RWqWfzTKM" className={styles.video} />
                 </div>
                 </div>
                 <div className={styles.how_to_start_box}>
