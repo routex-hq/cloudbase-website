@@ -23,13 +23,13 @@ const Page = () => {
             <main className={styles.main}>
                 <div className={styles.container_top}>
                 <div className={styles.container_left}>
-                <h1 className={styles.title}>Focus With CloudBase</h1>
-                <p className={styles.subtitle}>you no longer have to worry about managing projects<br/>and can focus on dev.</p>
+                <h1 className={styles.title + ' ' + styles.back_green}>Focus With CloudBase</h1>
+                <p className={styles.subtitle + ' ' + styles.back_green}>you no longer have to worry about managing projects<br/>and can focus on dev.</p>
                 <div className={styles.buttons}>
                     <Link href="/start"><a><button className={styles.button_black}><span>Let's get right in<span><img src="https://s2.svgbox.net/hero-outline.svg?ic=arrow-right&color=fff" alt="" className={styles.arrow}/></span></span></button></a></Link>
                     <Link href="/docs"><a><button className={styles.button_yellow}><span><img src="https://s2.svgbox.net/octicons.svg?ic=book&color=1A1A1A" className={styles.book}/></span><span>Documentation</span></button></a></Link>
                 </div>
-                <h2 className={styles.used_by}>used by</h2>
+                <h2 className={styles.used_by + ' ' + styles.back_green}>used by</h2>
                 <div className={styles.used_by_logos}>
                     <img src="/img/socialdog_inc_logo_white.svg" className={styles.social_dog} alt="socialdog"/>
                     <img src="/img/zenn-logo.png" className={styles.zenn} alt="zenn"/>
@@ -42,23 +42,23 @@ const Page = () => {
                 </div>
                 <div className={styles.how_to_start_box}>
                     <div className={styles.how_to_start_wrap}>
-                    <h2 className={styles.title}>How to Start</h2>
+                    <h2 className={styles.title + ' ' + styles.back_green}>How to Start</h2>
                         <div className={styles.step_list}>
                             <div className={styles.how_to_start_steps}>
-                                <h3>Register/Login with Google</h3>
-                                <p>Register for CloudBase with a Google account.</p>
+                                <h3 className={styles.back_green}>Register/Login with Google</h3>
+                                <p className={styles.back_green}>Register for CloudBase with a Google account.</p>
                             </div>
                             <div className={styles.how_to_start_steps}>
-                                <h3>Select an individual or group</h3>
-                                <p>You can also create a group later.</p>
+                                <h3 className={styles.back_green}>Select an individual or group</h3>
+                                <p className={styles.back_green}>You can also create a group later.</p>
                             </div>
                             <div className={styles.how_to_start_steps}>
-                                <h3>Create a project</h3>
-                                <p>Create one project per app.</p>
+                                <h3 className={styles.back_green}>Create a project</h3>
+                                <p className={styles.back_green}>Create one project per app.</p>
                             </div>
                             <div className={styles.how_to_start_steps}>
-                                <h3>Create a project</h3>
-                                <p>Create one project per app.</p>
+                                <h3 className={styles.back_green}>Create a project</h3>
+                                <p className={styles.back_green}>Create one project per app.</p>
                             </div>
                         </div>
                     </div>
