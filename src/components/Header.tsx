@@ -18,6 +18,7 @@ const Footer: FunctionComponent = () => {
             <div><span className={styles.logo}><img className={styles.logo_img} src="/img/logo-mark-font.svg"/></span></div>
         </a></Link>
         <div className={styles.links}>
+            <Link href="/ja"><a>ja</a></Link>
             <Link href="/price"><a>Price</a></Link>
             <Link href="/docs"><a>Docs</a></Link>
         </div>
