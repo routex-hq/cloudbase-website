@@ -37,7 +37,9 @@ const Page = () => {
                 </div>
                 </div>
                 <div className={styles.container_right}>
-                <YouTube videoId="X-RWqWfzTKM" className={styles.video} />
+                    <div className={styles.video_box}>
+                        <YouTube videoId="mY3KApEk7zQ" className={styles.video} />
+                    </div>
                 </div>
                 </div>
                 <div className={styles.how_to_start_box}>
