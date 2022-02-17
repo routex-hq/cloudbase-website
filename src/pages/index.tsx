@@ -32,7 +32,7 @@ const Page = () => {
                 <h2 className={styles.used_by + ' ' + styles.back_green}>used by</h2>
                 <div className={styles.used_by_logos}>
                     <img src="/img/socialdog_inc_logo_white.svg" className={styles.social_dog} alt="socialdog"/>
-                    <img src="/img/zenn-logo.png" className={styles.zenn} alt="zenn"/>
+                    <img src="/img/CyberAgent_logo.svg" className={styles.cyberagent} alt="cyberagent"/>
                     <img src="/img/Discord-Logo_Wordmark-Black.svg" className={styles.discord} alt="discord"/>
                 </div>
                 </div>
