@@ -167,21 +167,25 @@ $mobile: 767px;
         }
         .container_left {
             width: 100vw;
-            margin-left: 8vw;
+            margin-left: 0;
             margin-top: 5vh;
             .title {
                 font-size: 40px;
                 font-weight: bold;
                 color: #1A1A1A;
                 margin-bottom: 2vh;
+                margin-left: 5vw;
             }
             .subtitle {
                 font-size: 20px;
                 color: #1A1A1A;
                 margin-bottom: 4vh;
+                margin-left: 5vw;
             }
             .buttons {
                 text-align: center;
+                width: 100vw;
+                margin: 0;
             }
             .button_black {
                 background-color: #1A1A1A;
@@ -238,10 +242,12 @@ $mobile: 767px;
                 font-weight: 400;
                 margin-top: 3vh;
                 margin-bottom: 3vh;
+                margin-left: 5vw;
             }
             .used_by_logos {
                 display: flex;
                 flex-wrap: wrap;
+                margin-left: 5vw;
                 .social_dog {
                     fill: #1492E6;
                     height: 40px;
