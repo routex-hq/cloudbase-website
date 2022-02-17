@@ -19,6 +19,8 @@ export default ({ title, description, url }: Props): JSX.Element => {
             <meta property="og:image" content={"https://cloudbase.host/img/ogp.png"}/>
             <meta property="og:description" content={description}/>
             <meta name="twitter:card" content="summary_large_image"/>
+            <meta name="msapplication-TileColor" content="#66ff99"/>
+            <meta name="theme-color" content="#66ff99"/>
         </Head>
     )
 }
