@@ -9,14 +9,9 @@ import styles from "../styles/components/Header.module.scss"
 const Footer: FunctionComponent = () => {
     return (
     <div>
-    <Head>
-        <link href="https://fonts.cdnfonts.com/css/product-sans" rel="stylesheet"/>
-        <link rel="stylesheet" href="https://use.typekit.net/suh1soi.css"/>
-    </Head>
     <header className={styles.header}>
-        <Link href="/"><a>
-            <div><span className={styles.logo}><img className={styles.logo_img} src="/img/logo-mark-font.svg"/></span></div>
-        </a></Link>
+            <div><span className={styles.logo}>
+        <Link href="/"><a><img className={styles.logo_img} src="/img/logo-mark-font.svg"/></a></Link></span></div>
         <div className={styles.links}>
             <Link href="/ja"><a>ja</a></Link>
             <Link href="/price"><a>Price</a></Link>
