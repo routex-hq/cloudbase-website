@@ -26,7 +26,7 @@ const Page = () => {
                 <h1 className={styles.title + ' ' + styles.back_green}>Focus With CloudBase</h1>
                 <p className={styles.subtitle + ' ' + styles.back_green}>you no longer have to worry about managing projects<br/>and can focus on dev.</p>
                 <div className={styles.buttons}>
-                    <Link href="/start"><a><button className={styles.button_black}><span>Let's get right in<span><img src="https://s2.svgbox.net/hero-outline.svg?ic=arrow-right&color=fff" alt="" className={styles.arrow}/></span></span></button></a></Link>
+                    <Link href="/soon"><a><button className={styles.button_black}><span>Let's get right in<span><img src="https://s2.svgbox.net/hero-outline.svg?ic=arrow-right&color=fff" alt="" className={styles.arrow}/></span></span></button></a></Link>
                     <Link href="/docs"><a><button className={styles.button_yellow}><span><img src="https://s2.svgbox.net/octicons.svg?ic=book&color=1A1A1A" className={styles.book}/></span><span>Documentation</span></button></a></Link>
                 </div>
                 <h2 className={styles.used_by + ' ' + styles.back_green}>used by</h2>
@@ -38,7 +38,7 @@ const Page = () => {
                 </div>
                 <div className={styles.container_right}>
                     <div className={styles.video_box}>
-                        <YouTube videoId="mY3KApEk7zQ" className={styles.video} />
+                        <YouTube videoId="dBOSUER_5T4" className={styles.video} />
                     </div>
                 </div>
                 </div>
