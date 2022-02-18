@@ -1,5 +1,5 @@
 {
-  "name": "cloudbase",
+  "name": "cloudbase-website",
   "description": "🎛Control and integrate individual/group projects",
   "version": "1.0.0",
   "main": "index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/route-x/cloudbase.git"
+    "url": "git+https://github.com/route-x/cloudbase-website.git"
   },
   "homepage": "https://cloudbase.host/",
   "dependencies": {
