@@ -58,9 +58,16 @@ const Page = () => {
                                 <h3 className={styles.back_green}>Create a project</h3>
                                 <p className={styles.back_green}>Create one project per app.</p>
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div className={styles.how_to_start_box}>
+                    <div className={styles.how_to_start_wrap}>
+                    <h2 className={styles.title + ' ' + styles.back_green}>Investor</h2>
+                        <div className={styles.step_list}>
                             <div className={styles.how_to_start_steps}>
-                                <h3 className={styles.back_green}>Create a project</h3>
-                                <p className={styles.back_green}>Create one project per app.</p>
+                                <h3 className={styles.back_green}>None</h3>
+                                <p className={styles.back_green}>We are currently recruiting. Please contact us at <a href="mailto:contact@routex.jp">contact@routex.jp</a></p>
                             </div>
                         </div>
                     </div>
