@@ -13,7 +13,7 @@ const Page = () => {
             <EditHead
             title={appName}
             description={appDesc}
-            url={"https://cloudbase.host/home/"} />
+            url={"https://cloudbase.host/home"} />
             <main className={styles.main}>
                 <h1>DevDevDev</h1>
                 <p>With CloudBase, you no longer have to worry about managing projects and can focus on dev.</p>

@@ -17,7 +17,7 @@ const Page = () => {
             <EditHead
             title={appName}
             description={appDesc}
-            url={"https://cloudbase.host/soon/"} />
+            url={"https://cloudbase.host/soon"} />
             <Header />
             <main className={styles.main}>
                 <div className={styles.container_top}>
