@@ -29,12 +29,6 @@ const Page = () => {
                     <Link href="/soon"><a><button className={styles.button_black}><span>Let's get right in<span><img src="https://s2.svgbox.net/hero-outline.svg?ic=arrow-right&color=fff" alt="" className={styles.arrow}/></span></span></button></a></Link>
                     <Link href="/docs"><a><button className={styles.button_yellow}><span><img src="https://s2.svgbox.net/octicons.svg?ic=book&color=1A1A1A" className={styles.book}/></span><span>Documentation</span></button></a></Link>
                 </div>
-                <h2 className={styles.used_by + ' ' + styles.back_green}>used by</h2>
-                <div className={styles.used_by_logos}>
-                    <img src="/img/socialdog_inc_logo_white.svg" className={styles.social_dog} alt="socialdog"/>
-                    <img src="/img/CyberAgent_logo.svg" className={styles.cyberagent} alt="cyberagent"/>
-                    <img src="/img/Discord-Logo_Wordmark-Black.svg" className={styles.discord} alt="discord"/>
-                </div>
                 </div>
                 <div className={styles.container_right}>
                     <div className={styles.video_box}>
