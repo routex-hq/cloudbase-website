@@ -23,7 +23,7 @@ const Page = () => {
             <main className={styles.main}>
                 <div className={styles.container_top}>
                 <div className={styles.container_left}>
-                <h1 className={styles.title + ' ' + styles.back_green}>Focus With CloudBase</h1>
+                <h1 className={styles.title + ' ' + styles.back_green}>Devdevdev With CloudBase</h1>
                 <p className={styles.subtitle + ' ' + styles.back_green}>you no longer have to worry about managing projects<br/>and can focus on dev.</p>
                 <div className={styles.buttons}>
                     <Link href="/soon"><a><button className={styles.button_black}><span>Let's get right in<span><img src="https://s2.svgbox.net/hero-outline.svg?ic=arrow-right&color=fff" alt="" className={styles.arrow}/></span></span></button></a></Link>

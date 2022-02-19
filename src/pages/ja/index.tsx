@@ -23,7 +23,7 @@ const Page = () => {
             <main className={styles.main}>
                 <div className={styles.container_top}>
                 <div className={styles.container_left}>
-                <h1 className={styles.title}>Focus With CloudBase</h1>
+                <h1 className={styles.title}>Devdevdev With CloudBase</h1>
                 <p className={styles.subtitle}>CloudBaseを使用すればプロジェクトの管理に悩まされることはありません<br/>CloudBaseを使用して開発に集中しましょう<small>devdevdev.</small></p>
                 <div className={styles.buttons}>
                     <Link href="/soon"><a><button className={styles.button_black}><span>Let's get right in<span><img src="https://s2.svgbox.net/hero-outline.svg?ic=arrow-right&color=fff" alt="" className={styles.arrow}/></span></span></button></a></Link>
