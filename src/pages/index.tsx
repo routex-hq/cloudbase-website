@@ -24,7 +24,7 @@ const Page = () => {
                 <div className={styles.container_top}>
                 <div className={styles.container_left}>
                 <h1 className={styles.title + ' ' + styles.back_green}>Devdevdev With CloudBase</h1>
-                <p className={styles.subtitle + ' ' + styles.back_green}>you no longer have to worry about managing projects<br/>and can focus on dev.</p>
+                <p className={styles.subtitle + ' ' + styles.back_green}>You don't have to worry about managing<br/>the project anymore and can focus on development.</p>
                 <div className={styles.buttons}>
                     <Link href="/soon"><a><button className={styles.button_black}><span>Let's get right in<span><img src="https://s2.svgbox.net/hero-outline.svg?ic=arrow-right&color=fff" alt="" className={styles.arrow}/></span></span></button></a></Link>
                     <Link href="/docs"><a><button className={styles.button_yellow}><span><img src="https://s2.svgbox.net/octicons.svg?ic=book&color=1A1A1A" className={styles.book}/></span><span>Documentation</span></button></a></Link>
@@ -57,8 +57,8 @@ const Page = () => {
                 </div>
                 <div className={styles.how_to_start_box}>
                     <div className={styles.how_to_start_wrap}>
-                    <h2 className={styles.title + ' ' + styles.back_green}>what can do</h2>
-                    <p className={styles.subtitle + ' ' + styles.back_green}>you no longer have to worry about managing projects<br/>and can focus on dev.</p>
+                    <h2 className={styles.title + ' ' + styles.back_green}>What can do</h2>
+                    <p className={styles.subtitle + ' ' + styles.back_green}>CloudBase is a project management app for developers<br/>that allows you to manage your APIKEY, SNS accounts, deployment status, and status.<br/>Leave the project management to us!</p>
                     </div>
                 </div>
                 <div className={styles.how_to_start_box}>
