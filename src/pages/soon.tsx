@@ -42,10 +42,6 @@ const Page = () => {
                                 <p className={styles.back_green}>devdevdev devdevdev devdevdev devdevdev devdevdev devdevdev </p>
                             </div>
                             <div className={styles.how_to_start_steps}>
-                                <h3 className={styles.back_green}>Oct. 2022</h3>
-                                <p className={styles.back_green}>Incorporated in Japan</p>
-                            </div>
-                            <div className={styles.how_to_start_steps}>
                                 <h3 className={styles.back_green}>Nov. 2022</h3>
                                 <p className={styles.back_green}>Launch CloudBase</p>
                             </div>
@@ -58,7 +54,7 @@ const Page = () => {
                         <div className={styles.step_list}>
                             <div className={styles.how_to_start_steps}>
                                 <h3 className={styles.back_green}>None</h3>
-                                <p className={styles.back_green}>We are currently recruiting. Please contact us at <a href="mailto:contact@routex.jp">contact@routex.jp</a></p>
+                                <p className={styles.back_green}>Please contact us <a href="mailto:contact@routex.jp">contact@routex.jp</a></p>
                             </div>
                         </div>
                     </div>

@@ -24,7 +24,7 @@ const Page = () => {
                 <div className={styles.container_top}>
                 <div className={styles.container_left}>
                 <h1 className={styles.title + ' ' + styles.back_green}>Devdevdev With CloudBase</h1>
-                <p className={styles.subtitle + ' ' + styles.back_green}>プロジェクトの管理を気にする必要がなくなり<br/>開発に集中できるようになります</p>
+                <p className={styles.subtitle + ' ' + styles.back_green}>CloudBaseを使用すればプロジェクトの管理を気にする必要がなくなり<br/>開発に集中できるようになります</p>
                 <div className={styles.buttons}>
                     <Link href="/soon"><a><button className={styles.button_black}><span>Let's get right in<span><img src="https://s2.svgbox.net/hero-outline.svg?ic=arrow-right&color=fff" alt="" className={styles.arrow}/></span></span></button></a></Link>
                     <Link href="/docs"><a><button className={styles.button_yellow}><span><img src="https://s2.svgbox.net/octicons.svg?ic=book&color=1A1A1A" className={styles.book}/></span><span>Documentation</span></button></a></Link>
@@ -32,7 +32,6 @@ const Page = () => {
                 </div>
                 <div className={styles.container_right}>
                     <div className={styles.video_box}>
-                        <YouTube videoId="dBOSUER_5T4" className={styles.video} />
                     </div>
                 </div>
                 </div>
@@ -58,7 +57,7 @@ const Page = () => {
                 <div className={styles.how_to_start_box}>
                     <div className={styles.how_to_start_wrap}>
                     <h2 className={styles.title + ' ' + styles.back_green}>何ができる？</h2>
-                    <p className={styles.subtitle + ' ' + styles.back_green}>一言でいうと「開発者のためのプロジェクト管理ツール」です。<br/>CloudBaseを使用することでプロジェクトのSNSアカウント、APIKEY、<br/>デプロイ状況、ステータスなどを管理することができます。<br/>プロジェクト管理はCloudBaseにお任せください！完全無料です。</p>
+                    <p className={styles.subtitle + ' ' + styles.back_green}>一言でいうと「開発者のためのプロジェクト管理ツール」です。<br/><span>CloudBaseを使用することで<br/></span><span>プロジェクトの</span>APIキー、SNSアカウント、デプロイ状況、ドメイン、ステータスを管理することができます。</p>
                     </div>
                 </div>
                 <div className={styles.how_to_start_box}>
@@ -67,7 +66,7 @@ const Page = () => {
                         <div className={styles.step_list}>
                             <div className={styles.how_to_start_steps}>
                                 <h3 className={styles.back_green}>None</h3>
-                                <p className={styles.back_green}>We are currently recruiting. Please contact us at <a href="mailto:contact@routex.jp">contact@routex.jp</a></p>
+                                <p className={styles.back_green}>Please contact us <a href="mailto:contact@routex.jp">contact@routex.jp</a></p>
                             </div>
                         </div>
                     </div>

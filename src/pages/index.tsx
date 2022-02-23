@@ -32,7 +32,6 @@ const Page = () => {
                 </div>
                 <div className={styles.container_right}>
                     <div className={styles.video_box}>
-                        <YouTube videoId="dBOSUER_5T4" className={styles.video} />
                     </div>
                 </div>
                 </div>
@@ -67,7 +66,7 @@ const Page = () => {
                         <div className={styles.step_list}>
                             <div className={styles.how_to_start_steps}>
                                 <h3 className={styles.back_green}>None</h3>
-                                <p className={styles.back_green}>We are currently recruiting. Please contact us at <a href="mailto:contact@routex.jp">contact@routex.jp</a></p>
+                                <p className={styles.back_green}>Please contact us <a href="mailto:contact@routex.jp">contact@routex.jp</a></p>
                             </div>
                         </div>
                     </div>
